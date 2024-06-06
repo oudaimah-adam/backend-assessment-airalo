@@ -22,6 +22,8 @@ services:
         - MARIADB_DATABASE=${DB_DATABASE}
       ports:
         - "3306"
+      env_file:
+        - .env.database
 
     myapp:
       image: bitnami/laravel:9

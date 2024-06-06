@@ -1,0 +1,36 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "align_multiline_comment": true,
+        "array_syntax": true,
+        "combine_consecutive_issets": true,
+        "combine_consecutive_unsets": true,
+        "concat_space": {
+            "spacing": "one"
+        },
+        "declare_strict_types": true,
+        "explicit_string_variable": true,
+        "global_namespace_import": {
+            "import_classes": true,
+            "import_constants": true,
+            "import_functions": true
+        },
+        "is_null": true,
+        "method_argument_space": {
+            "keep_multiple_spaces_after_comma": false,
+            "on_multiline": "ensure_fully_multiline"
+        },
+        "operator_linebreak": {
+            "only_booleans": true,
+            "position": "end"
+        },
+        "return_assignment": true,
+        "single_line_throw": false,
+        "strict_comparison": true,
+        "visibility_required": true,
+        "yoda_style": false
+    },
+    "exclude": [
+        "vendor"
+    ]
+}
